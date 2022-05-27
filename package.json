@@ -1,14 +1,14 @@
 {
-  "name": "@rari-capital/solmate",
+  "name": "@regohiro/solmate-plus",
   "license": "AGPL-3.0-only",
   "version": "6.4.0",
-  "description": "Modern, opinionated and gas optimized building blocks for smart contract development.",
+  "description": "A fork of @rari-capital/solmate with additional features and utilites.",
   "files": [
     "src/**/*.sol"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rari-Capital/solmate.git"
+    "url": "git+https://github.com/regohiro/solmate-plus"
   },
   "devDependencies": {
     "prettier": "^2.3.1",

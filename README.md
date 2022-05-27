@@ -1,4 +1,6 @@
-# solmate
+# solmate-plus
+
+A fork of [@rari-capital/solmate](https://github.com/Rari-Capital/solmate/tree/1681dc505f4897ef636f0435d01b1aa027fdafaf) with additional features and utilites.
 
 **Modern**, **opinionated**, and **gas optimized** building blocks for **smart contract development**.
 
@@ -45,13 +47,7 @@ We **do not give any warranties** and **will not be liable for any loss** incurr
 To install with [**Foundry**](https://github.com/gakonst/foundry):
 
 ```sh
-forge install rari-capital/solmate
-```
-
-To install with [**Hardhat**](https://github.com/nomiclabs/hardhat) or [**Truffle**](https://github.com/trufflesuite/truffle):
-
-```sh
-npm install @rari-capital/solmate
+git submodule add https://github.com/regohiro/solmate-plus lib/solmate-plus
 ```
 
 ## Acknowledgements
