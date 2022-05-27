@@ -1,6 +1,6 @@
 # solmate-plus
 
-A fork of [@rari-capital/solmate](https://github.com/Rari-Capital/solmate/tree/1681dc505f4897ef636f0435d01b1aa027fdafaf) with additional features and utilites.
+A fork of [@rari-capital/solmate](https://github.com/Rari-Capital/solmate/tree/1681dc505f4897ef636f0435d01b1aa027fdafaf) with additional features and utilities.
 
 **Modern**, **opinionated**, and **gas optimized** building blocks for **smart contract development**.
 
