@@ -2,7 +2,7 @@
   "name": "@regohiro/solmate-plus",
   "license": "AGPL-3.0-only",
   "version": "6.4.0",
-  "description": "A fork of @rari-capital/solmate with additional features and utilites.",
+  "description": "A fork of @rari-capital/solmate with additional features and utilities.",
   "files": [
     "src/**/*.sol"
   ],
