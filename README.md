@@ -44,7 +44,7 @@ We **do not give any warranties** and **will not be liable for any loss** incurr
 
 ## Installation
 
-To install with [**Foundry**](https://github.com/gakonst/foundry):
+To install with [**Git Submodules**](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
 
 ```sh
 git submodule add https://github.com/regohiro/solmate-plus lib/solmate-plus
