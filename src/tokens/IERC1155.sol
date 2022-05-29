@@ -76,7 +76,7 @@ interface IERC1155 is IERC165 {
 /// @notice A generic interface for a contract which properly accepts ERC1155 tokens.
 /// @author Solmate-plus (https://github.com/regohiro/solmate-plus/blob/main/src/tokens/IERC1155.sol)
 /// @author Modified from Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/tokens/ERC1155.sol)
-interface IERC1155Receiver is IERC165 {
+interface IERC1155TokenReceiver is IERC165 {
     function onERC1155Received(
         address operator,
         address from,
