@@ -1,33 +1,12 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity >=0.8.0;
 
+import "./IERC1155.sol";
+
 /// @notice Minimalist and gas efficient standard ERC1155 implementation.
-/// @author Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/tokens/ERC1155.sol)
-abstract contract ERC1155 {
-    /*//////////////////////////////////////////////////////////////
-                                 EVENTS
-    //////////////////////////////////////////////////////////////*/
-
-    event TransferSingle(
-        address indexed operator,
-        address indexed from,
-        address indexed to,
-        uint256 id,
-        uint256 amount
-    );
-
-    event TransferBatch(
-        address indexed operator,
-        address indexed from,
-        address indexed to,
-        uint256[] ids,
-        uint256[] amounts
-    );
-
-    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
-
-    event URI(string value, uint256 indexed id);
-
+/// @author Solmate-plus (https://github.com/regohiro/solmate-plus/blob/main/src/tokens/ERC1155.sol)
+/// @author Modified from Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/tokens/ERC1155.sol)
+abstract contract ERC1155 is IERC1155 {
     /*//////////////////////////////////////////////////////////////
                              ERC1155 STORAGE
     //////////////////////////////////////////////////////////////*/
@@ -233,8 +212,9 @@ abstract contract ERC1155 {
 }
 
 /// @notice A generic interface for a contract which properly accepts ERC1155 tokens.
-/// @author Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/tokens/ERC1155.sol)
-abstract contract ERC1155TokenReceiver {
+/// @author Solmate-plus (https://github.com/regohiro/solmate-plus/blob/main/src/tokens/ERC1155.sol)
+/// @author Modified from Solmate (https://github.com/Rari-Capital/solmate/blob/main/src/tokens/ERC1155.sol)
+abstract contract ERC1155TokenReceiver is IERC1155Receiver {
     function onERC1155Received(
         address,
         address,
